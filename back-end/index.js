@@ -1,9 +1,9 @@
 const express = require('express');
 const cors = require("cors");
 
-require('./db/config');
-const User = require("./db/User");
-const Product =require("./db/Product");
+require('./back-end/db/config');
+const User = require("./back-end/db/User");
+const Product =require("./back-end/db/Product");
 const Jwt = require('jsonwebtoken');
 const jwtKey = 'e-com';
 const app = express();
